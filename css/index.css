@@ -1,0 +1,41 @@
+/*{border:1px solid rgb(53, 13, 235);
+}*/
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(97, 97, 247);
+    padding: 10px 20px;
+    color: black;
+    align-items: center;
+}
+#logo{
+    width: 80px;
+    align-items: center;
+}
+h1{
+    font-size: 30px;
+}
+article {
+    width: 30%;
+    margin: 20px;
+}
+article img {
+    width: 100%;
+}
+#seccionFotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contenedorImg{
+    height: 290px;
+    overflow: hidden;
+    border-radius: 13%;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
